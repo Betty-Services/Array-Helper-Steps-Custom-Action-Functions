@@ -9,8 +9,8 @@ This repository hosts the code for the custom actions steps found in the [Array 
 - Create Array
 - Includes
 - Index Of
-- Pop
-- Push
+- Remove Element
+- Add Element
 - Slice
 - Array Loop
 
