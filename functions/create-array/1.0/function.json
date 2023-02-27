@@ -1,0 +1,22 @@
+{
+  "description": "This actionstep creates a new array.",
+  "label": "Create Array",
+  "category": "Array",
+  "icon": {
+    "name": "PlusCircle",
+    "color": "Pink"
+  },
+  "options": [
+    {
+      "name": "as",
+      "label": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Object"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}

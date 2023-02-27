@@ -1,4 +1,4 @@
-import exampleFunction from '../functions/example-function/1.0';
+import slice from '../functions/slice/1.0';
 describe('Example Test', () => {
   const exampleInput = {
     example: true,

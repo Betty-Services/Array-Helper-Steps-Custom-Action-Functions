@@ -1,0 +1,43 @@
+{
+  "description": "This actionstep lets you find the position of the element in the array.",
+  "label": "Index Of",
+  "category": "Array",
+  "icon": {
+    "name": "NumberIcon",
+    "color": "Pink"
+  },
+  "options": [
+    {
+      "name": "array",
+      "label": "arrayInput",
+      "meta": {
+        "type": "Object",
+        "validations": {
+          "required": true
+        }
+      }
+    },
+    {
+      "label": "element",
+      "name": "object",
+      "meta": {
+        "type": "Object",
+        "validations": {
+          "required": true
+        }
+      }
+    },
+    {
+      "label": "as",
+      "name": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Number"
+        }
+      },
+      "info": "Returns the position of the matching input, starting from 0. If there was no match, it will return -1"
+    }
+  ],
+  "yields": "NONE"
+}

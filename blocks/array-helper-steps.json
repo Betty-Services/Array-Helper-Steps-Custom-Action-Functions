@@ -1,0 +1,12 @@
+{
+  "dependencies": ["lodash"],
+  "functions": [
+    "slice 1.0",
+    "addElement 1.0",
+    "removeElement 1.0",
+    "indexOf 1.0",
+    "includes 1.0",
+    "createArray 1.0"
+  ],
+  "includes": []
+}

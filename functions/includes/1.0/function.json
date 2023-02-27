@@ -1,0 +1,44 @@
+{
+  "description": "This actionstep let's you test whether a value is in an array.",
+  "label": "Includes",
+  "category": "Array",
+  "icon": {
+    "name": "CheckboxIcon",
+    "color": "Pink"
+  },
+  "options": [
+    {
+      "name": "array",
+      "label": "arrayInput",
+      "meta": {
+        "type": "Object",
+        "validations": {
+          "required": true
+        }
+      }
+    },
+    {
+      "label": "element",
+      "name": "object",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["STRING", "OBJECT", "BOOLEAN", "JSON", "NUMBER"],
+        "validations": {
+          "required": true
+        }
+      }
+    },
+    {
+      "label": "as",
+      "name": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Boolean"
+        }
+      },
+      "info": "Returns true if the element was found, otherwise it will return false"
+    }
+  ],
+  "yields": "NONE"
+}

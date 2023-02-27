@@ -1,47 +1,55 @@
-![Action Validation](https://github.com/betty-services/Custom-Action-Functions-Template/actions/workflows/main.yml/badge.svg?event=push)
-
-# Custom Action Functions Template
-
-This repository can be used to kick-start your new repositories for Custom Action Functions.
-
-### What does this repository include
-
-- `config.json`
-  - Simply set your applications' ID (make sure to use the lowest sandboxes' ID) to publish new functions.
-- `.gitignore`
-  - To not commit any unnecessary files.
-- Function validation
-  - Currently only scoped to validate the custom action steps when pushed to the repository.
-- Ready to use jest configuration
-  - Install jest using `npm i -g jest`
-  - Run the `jest` command
-- An example function including an example Jest test script
-- A protected `main` branch that requires pulls to be updated.
-
-### First steps:
-
-1.  Create a new repository. Use this repository as a template.
-2.  Pull your repository.
-3.  Run `npm ci` to install all required packages.
-4.  Develop!
-
-### To do:
-
-- [ ] Automated jest testing
-  - [ ] Include coverage report in `README.md` file
-- [ ] Automated block publishing
-- [ ] Fix hardcoded badge URL in `README.md`
-
----
-
-**Remove the content above when you made a new repository from this template and keep the following:**
+![Action Validation](https://github.com/betty-services/Array-Helper-Steps-Custom-Action-Functions/actions/workflows/main.yml/badge.svg?event=push)
 
 # 'Block Name' Custom Action Functions
 
-This repository hosts the code for the custom actions steps found in the [the blocks' name](https://my.bettyblocks.com/block-store/blockId/) from the Betty Blocks block store.
+This repository hosts the code for the custom actions steps found in the [Array Helper Steps](https://my.bettyblocks.com/block-store/blockId/) from the Betty Blocks block store.
 
-### This repository hosts the following steps:
+## This repository hosts the following steps:
 
-- Example Function
+- Create Array
+- Includes
+- Index Of
+- Pop
+- Push
+- Slice
+- Array Loop
 
-_Do not forget to update the badge above once this repository has been used._
+### Create Array
+
+This action step simply creates an array.
+
+The output is currently an `Object` but will be changed to `Array` once the feature is available.
+
+### Includes
+
+This actionstep let's you test whether a value is in an array
+Returns `true` if the element was found, otherwise it will return `false`.
+
+### Index Of
+
+This actionstep lets you find the position of the element in an array.
+Arrays start as `0`.
+
+If there was no match, this step will return `-1`.
+
+### Remove Element
+
+This action step removes an element from an array.
+
+The output is currently an `Object` but will be changed to `Array` once the feature is available.
+
+### Add Element
+
+This action step adds an element to an array.
+
+The output is currently an `Object` but will be changed to Array once the feature is available.
+
+### Slice
+
+This action step returns a shallow copy of a portion of an array, selected from `start` to `end` (`end` not included) where `start` and `end` represent the index of elements in that array.
+
+The output is currently an `Object` but will be changed to Array once the feature is available.
+
+### Array Loop
+
+This action step lets you loop over the elements in an array.

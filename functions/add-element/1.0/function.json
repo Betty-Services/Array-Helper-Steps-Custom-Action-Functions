@@ -1,0 +1,54 @@
+{
+  "description": "Add an element to an array.",
+  "label": "Push",
+  "category": "Array",
+  "icon": {
+    "name": "DownloadIcon",
+    "color": "Pink"
+  },
+  "options": [
+    {
+      "name": "array",
+      "label": "arrayInput",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["ARRAY", "OBJECT"],
+        "validations": {
+          "required": true
+        }
+      }
+    },
+    {
+      "label": "element",
+      "name": "element",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": [
+          "OBJECT",
+          "JSON",
+          "BOOLEAN",
+          "NUMBER",
+          "STRING",
+          "ARRAY",
+          "FILE",
+          "IMAGE",
+          "RECORD"
+        ],
+        "validations": {
+          "required": true
+        }
+      }
+    },
+    {
+      "label": "as",
+      "name": "as",
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Object"
+        }
+      }
+    }
+  ],
+  "yields": "NONE"
+}
