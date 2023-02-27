@@ -13,6 +13,7 @@ This repository hosts the code for the custom actions steps found in the [Array 
 - Add Element
 - Slice
 - Array Loop
+- Count
 
 ### Create Array
 
@@ -53,3 +54,7 @@ The output is currently an `Object` but will be changed to Array once the featur
 ### Array Loop
 
 This action step lets you loop over the elements in an array.
+
+### Count
+
+This action step lets you count the amount of elements in an array.
