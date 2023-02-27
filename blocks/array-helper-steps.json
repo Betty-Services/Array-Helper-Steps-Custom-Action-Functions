@@ -6,7 +6,8 @@
     "removeElement 1.0",
     "indexOf 1.0",
     "includes 1.0",
-    "createArray 1.0"
+    "createArray 1.0",
+    "arrayLoop 1.0"
   ],
   "includes": []
 }
