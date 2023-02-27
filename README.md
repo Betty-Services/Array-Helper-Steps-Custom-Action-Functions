@@ -1,6 +1,6 @@
 ![Action Validation](https://github.com/betty-services/Array-Helper-Steps-Custom-Action-Functions/actions/workflows/main.yml/badge.svg?event=push)
 
-# 'Block Name' Custom Action Functions
+# 'Array Helper Steps' Custom Action Functions
 
 This repository hosts the code for the custom actions steps found in the [Array Helper Steps](https://my.bettyblocks.com/block-store/blockId/) from the Betty Blocks block store.
 
