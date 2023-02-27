@@ -1,10 +1,10 @@
 {
   "description": "Lets you count the amount of elements in an array.",
   "label": "Count",
-  "category": "Misc",
+  "category": "Array",
   "icon": {
     "name": "NumberCountIcon",
-    "color": "Teal"
+    "color": "Pink"
   },
   "options": [
     {
