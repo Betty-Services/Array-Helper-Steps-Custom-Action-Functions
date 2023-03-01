@@ -32,7 +32,7 @@
       },
       "name": "iterator",
       "label": "Iterator (as Object)",
-      "info": "The name for the iterator under which the object of each iteration will be available. Leave empty to disable."
+      "info": "The name for the iterator under which the object of each iteration will be available."
     },
     {
       "meta": {
