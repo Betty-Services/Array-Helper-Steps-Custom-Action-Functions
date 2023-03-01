@@ -1,0 +1,111 @@
+{
+  "description": "This action step lets you loop over an array.",
+  "label": "Array Loop",
+  "category": "Array",
+  "icon": {
+    "color": "Pink",
+    "name": "LoopIcon"
+  },
+  "options": [
+    {
+      "name": "input",
+      "label": "Input",
+      "meta": {
+        "type": "Value",
+        "allowedKinds": ["ARRAY", "OBJECT"],
+        "validations": {
+          "required": true
+        }
+      },
+      "info": "The Array you want to use to loop over."
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text",
+          "scoped": true
+        },
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "iterator",
+      "label": "Iterator (as Text)",
+      "info": "The name for the iterator under which the object of each iteration will be available. Leave empty to disable."
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Number",
+          "scoped": true
+        },
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "iterator",
+      "label": "Iterator (as Number)",
+      "info": "The name for the iterator under which the object of each iteration will be available. Leave empty to disable."
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Boolean",
+          "scoped": true
+        },
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "iterator",
+      "label": "Iterator (as Checkbox)",
+      "info": "The name for the iterator under which the object of each iteration will be available. Leave empty to disable."
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Object",
+          "scoped": true
+        },
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "iterator",
+      "label": "Iterator (as Object)",
+      "info": "The name for the iterator under which the object of each iteration will be available. Leave empty to disable."
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "JSON",
+          "scoped": true
+        },
+        "validations": {
+          "required": true
+        }
+      },
+      "name": "iterator",
+      "label": "Iterator (as JSON)",
+      "info": "The name for the iterator under which the object of each iteration will be available. Leave empty to disable."
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Number",
+          "scoped": true
+        }
+      },
+      "name": "index",
+      "label": "Index",
+      "info": "The name for the variable under which the current iteration will be available. Starts at 0. For example, in the 1st iteration this variable holds the value 0 and in 10th iteration, this variable holds the value 9."
+    }
+  ],
+  "yields": "ALL"
+}
