@@ -1,7 +1,7 @@
 {
   "description": "This action step lets you loop over an array.",
-  "label": "Array Loop",
-  "category": "Array",
+  "label": "Loop over Array",
+  "category": "Flow",
   "icon": {
     "color": "Pink",
     "name": "LoopIcon"
