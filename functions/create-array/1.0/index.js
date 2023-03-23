@@ -1,5 +1,5 @@
 const createArray = async () => {
-  return { as: new Array() };
+  return { as: [] };
 };
 
 export default createArray;
