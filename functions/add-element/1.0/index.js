@@ -1,12 +1,12 @@
-const addElement = async ({ arrayInput, element }) => {
-  if (!Array.isArray(arrayInput)) {
+const addElement = async ({ input, element }) => {
+  if (!Array.isArray(input)) {
     throw new Error("The input array isn't an array.");
   }
 
-  arrayInput.push(element);
+  input.push(element);
 
   return {
-    as: arrayInput,
+    as: input,
   };
 };
 

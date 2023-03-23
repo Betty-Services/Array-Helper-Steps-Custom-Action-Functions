@@ -1,6 +1,6 @@
 {
   "description": "Add an element to an array.",
-  "label": "Push",
+  "label": "Add element",
   "category": "Array",
   "icon": {
     "name": "DownloadIcon",
@@ -8,8 +8,8 @@
   },
   "options": [
     {
-      "name": "array",
-      "label": "arrayInput",
+      "name": "input",
+      "label": "array",
       "meta": {
         "type": "Value",
         "allowedKinds": ["ARRAY", "OBJECT"],
