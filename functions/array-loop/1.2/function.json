@@ -23,7 +23,7 @@
       "meta": {
         "type": "Output",
         "output": {
-          "type": "Object",
+          "type": "Text",
           "scoped": true
         },
         "validations": {
@@ -31,8 +31,8 @@
         }
       },
       "name": "iterator",
-      "label": "Iterator (as Object)",
-      "info": "The name for the iterator under which the object of each iteration will be available."
+      "label": "Iterator (as Text)",
+      "info": "The name for the iterator under which the object of each iteration will be available. Leave empty to disable."
     },
     {
       "meta": {
