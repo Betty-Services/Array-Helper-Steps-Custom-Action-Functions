@@ -31,7 +31,7 @@
         }
       },
       "name": "iterator",
-      "label": "Iterator (as Text)",
+      "label": "Iterator",
       "info": "The name for the iterator under which the object of each iteration will be available. Leave empty to disable."
     },
     {
